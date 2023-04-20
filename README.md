@@ -13,5 +13,10 @@ This is the shader graph used **under** the *Universal Render Pipeline (URP)* to
 # Notice
 If you are not able to cast shadows, select the **Univeral Render Pipeline Asset** that you are currently using. Then check both *Lighting/Main Light/Cast Shadows* and *Lighting/Additional Lights/Cast Shadows*.
 
+You may also need to verify the following options to cast shadows:
+
+- **Camera/Render Shadows**
+- **Light/Rendering/Culling Mask**
+
 # Sample
 ![screenshot](./screenshot.png)
